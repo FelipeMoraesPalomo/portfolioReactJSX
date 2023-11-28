@@ -9,10 +9,10 @@ import temaDark from './themes/dark'
 import { useState } from 'react'
 
 function App() {
-  const [usingTemaDark, setusingTemaDark] = useState(false)
+  const [usingTemaDark, setUsingTemaDark] = useState(false)
 
   function trocaTema() {
-    setusingTemaDark(!usingTemaDark)
+    setUsingTemaDark(!usingTemaDark)
   }
 
   return (
